@@ -13,6 +13,8 @@ public class HelloController {
     @PostMapping("/hello")
     public String hello(){
         log.info("now a request is coming");
+
+        //测试直接返回结果的注释
         return "hello from springSolution";
     }
 
